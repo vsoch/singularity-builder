@@ -78,4 +78,4 @@ With this [packer](https://www.packer.io/docs/command-line/build.html) configura
 	==> Builds finished. The artifacts of successful builds are:
 	--> googlecompute: A disk image was created: singularity-hub-test-58151473-5671-eed2-1511-c8afdb680a36
 
-This script can be used outside of Singularity Hub/Singularity Python - currently we aren't using Packer to generate the image because there seems to be an issue with installing Singularity with it. Instead, the image is created interactively, and saved for Singularity Hub. If you get the packer version to work, please let us know!
+This script can be used outside of Singularity Hub/Singularity Python - currently we aren't using Packer to generate the image because there seems to be an issue with installing Singularity with it. Instead, the image is created interactively.
